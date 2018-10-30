@@ -1,0 +1,44 @@
+body {
+  background-color: #B2FFA8;
+}
+
+.jumbotron {
+  background-color: #6C7885 ;
+  text-align: center;
+  color: white;
+  padding: 1rem;
+}
+
+.form-background {
+  background-color: #6C7885;
+  padding: 2rem;
+  color: white;
+  border-radius: 1%;
+}
+
+input:hover {
+  border-color: #B2FFA8;
+}
+
+.btn {
+  background-color: #7DB276;
+  border-color: #B2FFA8;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #B2FFA8;
+  color: #343a40;
+}
+
+.upper-footer {
+  background-color: #6C7885;
+  color: #343a40;
+}
+
+footer {
+  background-color: #343a40;
+  color: #6C7885;
+  height: 10%;
+  margin-top: 15%;
+}
