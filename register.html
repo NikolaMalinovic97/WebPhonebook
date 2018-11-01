@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style-register.css">
+    <title>Register - phonebooker</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo.png" width="30" height="30" alt=""> Phonebooker
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Register
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navigation -->
+    <!-- Form -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="offset-md-3 col-md-6 offset-sm-2 col-sm-8 offset-xs-1 col-xs-10 mt-3">
+          <form>
+            <div class="form-goup">
+              <!-- Username -->
+              <label for="exampleInputUsername">Username</label>
+              <input type="text" name="register-form" class="form-control shadow-lg" placeholder="Enter username">
+              <!-- Password -->
+              <label for="exampleInputPassword">Password</label>
+              <input type="password" name="register-form" class="form-control shadow-lg" placeholder="Password">
+              <!-- Repeat Password-->
+              <label for="exampleInputRepeatPassword">Repeat Password</label>
+              <input type="password" name="register-form" class="form-control shadow-lg" placeholder="Repeat Password">
+              <!-- Name -->
+              <label for="exampleInputName">Name</label>
+              <input type="text" name="register-form" class="form-control shadow-lg" placeholder="Name">
+              <!-- Surname -->
+              <label for="exampleInputSurname">Surname</label>
+              <input type="text" name="register-form" class="form-control shadow-lg" placeholder="Surname">
+              <!-- DOB -->
+              <div class="row">
+                <div class="col-12">
+                  <label for="exampleInputDOB">Date Of Birth (year/month/day)</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6">
+                  <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownYear" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    2018
+                  </button>
+                </div>
+                <div class="col-3">
+                  <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMonth" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    1
+                  </button>
+                </div>
+                <div class="col-3">
+                  <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownDay" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    1
+                  </button>
+                </div>
+              </div>
+              <!-- Email -->
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control shadow-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <!-- Phone -->
+              <label for="exampleInputPhone">Phone Number</label>
+              <input type="text" name="register-form" class="form-control shadow-lg" placeholder="Surname">
+            </div>
+            <br>
+            <button type="submit" class="btn btn-success shadow-lg">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Form -->
+    <!-- Footer -->
+    <footer>
+      <div class="container-fluid">
+        <div class="row footer p-md-2 justify-content-center">
+          Copyright 2018: Nikola Malinović
+        </div>
+      </div>
+    </footer>
+    <!-- Footer -->
+  </body>
+</html>
