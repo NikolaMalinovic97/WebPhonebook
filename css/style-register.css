@@ -1,5 +1,8 @@
 body {
-  background-color: #B2FFA8;
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 footer {
