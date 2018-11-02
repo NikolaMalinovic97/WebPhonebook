@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style-phonebooker.css">
+    <title>Phonebooker</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" width="30" height="30" alt=""> Phonebooker
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">My phonebooker
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Log Out</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navigation -->
+    <!-- Dashboard -->
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Contacts -->
+        <div class="col-lg-9 dashboard-contacts">
+          <h3 class="">Contacts</h3>
+          <hr>
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="btn-group  form-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-secondary"><i class="fas fa-user-plus"></i></button>
+                <button type="button" class="btn btn-secondary"><i class="fas fa-user-cog"></i></button>
+                <button type="button" class="btn btn-secondary"><i class="fas fa-user-times"></i></button>
+              </div>
+            </div>
+            <div class="col-7 col-md-7 col-lg-6">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <button class="btn btn-secondary" type="button" id="button-addon1"><i class="fas fa-search"></i></button>
+                </div>
+                <input type="text" class="form-control" placeholder="Search" aria-label="Example text with button addon" aria-describedby="button-addon1">
+              </div>
+            </div>
+            <div class="col-8 col-md-5 col-lg-3">
+              <div class="input-group-prepend">
+                <button class="btn btn-secondary" type="button" id="button-addon1">Search by:</button>
+                <select class="form-control" id="exampleFormControlSelect1">
+                 <option>Name</option>
+                 <option>Surname</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-12 mt-3">
+              <!-- Table -->
+              <table class="table table-secondary table-striped table-hover table-bordered">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Surname</th>
+                    <th scope="col">Phone number</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Markovic</td>
+                    <td>0038766545987</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>00354999292139</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Ann</td>
+                    <td>Doe</td>
+                    <td>00351934928</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Example Name</td>
+                    <td>Example Surname</td>
+                    <td>00351934928</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>Example Name</td>
+                    <td>Example Surname</td>
+                    <td>00351934928</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>Example Name</td>
+                    <td>Example Surname</td>
+                    <td>00351934928</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Example Name</td>
+                    <td>Example Surname</td>
+                    <td>00351934928</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Example Name</td>
+                    <td>Example Surname</td>
+                    <td>00351934928</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>Example Name</td>
+                    <td>Example Surname</td>
+                    <td>00351934928</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>Example Name</td>
+                    <td>Example Surname</td>
+                    <td>00351934928</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">11</th>
+                    <td>Example Name</td>
+                    <td>Example Surname</td>
+                    <td>00351934928</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">12</th>
+                    <td>Example Name</td>
+                    <td>Example Surname</td>
+                    <td>00351934928</td>
+                  </tr>
+                </tbody>
+              </table>
+              <!-- Table end -->
+            </div>
+          </div>
+        </div>
+        <!-- Profile -->
+        <div class="col-lg-3 dashboard-profile">
+          <h3 class="">Profile</h3>
+          <hr>
+          <div class="row">
+            <div class="col-3">
+              <h6>Name:</h6>
+            </div>
+            <div class="col-9">
+              <p>Name Example</p>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-3">
+              <h6>Surname:</h6>
+            </div>
+            <div class="col-9">
+              <p>Surname Example</p>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-3">
+              <h6>DOB:</h6>
+            </div>
+            <div class="col-9">
+              <p>DOB Example</p>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-3">
+              <h6>Email:</h6>
+            </div>
+            <div class="col-9">
+              <p>Email Example</p>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-3">
+              <h6>Phone:</h6>
+            </div>
+            <div class="col-9">
+              <p>Phone Example</p>
+            </div>
+          </div>
+          <hr>
+          <button type="button" name="button" class="btn btn-success btn-block mb-3">Change Profile info</button>
+        </div>
+      </div>
+    </div>
+    <!-- Dashboard -->
+    <!-- Footer -->
+    <footer>
+      <div class="container-fluid">
+        <div class="row footer p-md-2 justify-content-center">
+          Copyright 2018: Nikola Malinović
+        </div>
+      </div>
+    </footer>
+    <!-- Footer -->
+  </body>
+</html>
